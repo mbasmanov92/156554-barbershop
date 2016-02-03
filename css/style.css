@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'PT Sans Narrow';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+
+    color: #000;
+}
+
+.features-name
+{
+    font-family: 'PT Sans Narrow';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+
+    color: #f7f4f1;
+}
+
+.index-content-title
+{
+    font-family: 'PT Sans Narrow';
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+
+    color: #000;
+}
