@@ -8,6 +8,43 @@ body
     color: #000;
 }
 
+.front
+{
+    background-image: url('../img/index-background.jpg');
+}
+
+.index-content
+{
+    background: url('../img/content-background.png'),
+    url('../img/content-dividing-line.png') no-repeat 50% 50%;
+}
+
+.main-footer
+{
+    background-image: url('../img/footer-background.png');
+}
+
+.social-btn-vk
+{
+    background-image: url('../img/footer-icon-vkontakte.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-btn-fb
+{
+    background-image: url('../img/footer-icon-facebook.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.social-btn-inst
+{
+    background-image: url('../img/footer-icon-cam.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .features-name
 {
     font-family: 'PT Sans Narrow';
