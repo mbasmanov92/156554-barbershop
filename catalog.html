@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<header class="main-header">
-			<div class="container">
+			<div class="container clearfix">
 				<nav class="main-navigation">
 					<ul>
 						<li>
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 		</header>
-		<main class="container">
+		<main class="container clearfix">
 			<h1 class="catolog-content-title">Средства для ухода</h1>
 			<nav class="breadcrumbs">
 				<ul>
@@ -56,27 +56,45 @@
 				<form action="#" method="post">
 					<fieldset>
 						<legend>Производители:</legend>
-						<label for="baxter-of-california">Baxter of California</label>
-						<input type="checkbox" id="baxter-of-california" name="baxter-of-california" value="1">
-						<label for="mr-natty">Mr Natty</label>
-						<input type="checkbox" id="mr-natty" name="mr-natty" value="1">
-						<label for="suavecito">Suavecito</label>
-						<input type="checkbox" id="suavecito" name="suavecito" value="1">
-						<label for="malin+goetz">Malin+Goetz</label>
-						<input type="checkbox" id="malin+goetz" name="malin+goetz" value="1">
-						<label for="murray's">Murray's</label>
-						<input type="checkbox" id="murray's" name="murray's" value="1">
-						<label for="american-crew">American crew</label>
-						<input type="checkbox" id="american-crew" name="american-crew" value="1">
+						<div class="product-filter-item">
+							<label for="baxter-of-california">Baxter of California</label>
+							<input type="checkbox" id="baxter-of-california" name="baxter-of-california" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="mr-natty">Mr Natty</label>
+							<input type="checkbox" id="mr-natty" name="mr-natty" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="suavecito">Suavecito</label>
+							<input type="checkbox" id="suavecito" name="suavecito" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="malin+goetz">Malin+Goetz</label>
+							<input type="checkbox" id="malin+goetz" name="malin+goetz" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="murray's">Murray's</label>
+							<input type="checkbox" id="murray's" name="murray's" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="american-crew">American crew</label>
+							<input type="checkbox" id="american-crew" name="american-crew" value="1">
+						</div>	
 					</fieldset>
 					<fieldset>
 						<legend>Группы товаров:</legend>
-						<label for="shaving-things">Бритвенные принадлежности</label>
-						<input type="radio" id="shaving-things" name="product-group" value="1">
-						<label for="care-means">Средства для ухода</label>
-						<input type="radio" id="care-means" name="product-group" value="1">
-						<label for="accessories">Аксессуары</label>
-						<input type="radio" id="accessories" name="product-group" value="1">
+						<div class="product-filter-item">
+							<label for="shaving-things">Бритвенные принадлежности</label>
+							<input type="radio" id="shaving-things" name="product-group" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="care-means">Средства для ухода</label>
+							<input type="radio" id="care-means" name="product-group" value="1">
+						</div>
+						<div class="product-filter-item">
+							<label for="accessories">Аксессуары</label>
+							<input type="radio" id="accessories" name="product-group" value="1">
+						</div>
 					</fieldset>
 					<input type="submit" value="ПОКАЗАТЬ">
 				</form>
@@ -171,7 +189,7 @@
 			</div>
 		</main>
 		<footer class="main-footer">
-			<div class="container">
+			<div class="container clearfix">
 				<section class="footer-contacts">
 					Барбершоп «Бородинский»<br>
 					Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

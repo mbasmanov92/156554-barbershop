@@ -8,20 +8,156 @@ body
     color: #000;
 }
 
+.clearfix::after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    opacity: .7;
+    background-color: yellow;
+}
+
+.main-navigation
+{
+    float: left;
+
+    width: 780px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.user-block
+{
+    float: right;
+
+    width: 140px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.main-header
+{
+    margin-bottom: 60px;
+
+    opacity: .7;
+    background-color: green;
+}
+.index-logo
+{
+    width: 368px;
+    height: 204px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.features-item
+{
+    float: left;
+
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.features-item:last-child
+{
+    margin-right: 0;
+}
+
+.index-content
+{
+    margin-bottom: 35px;
+    padding: 50px 80px;
+
+    opacity: .7;
+    background: url('../img/content-background.png'),
+    url('../img/content-dividing-line.png') no-repeat 50% 50%;
+    background-color: red;
+}
+
+.index-content-left
+{
+    float: left;
+
+    width: 380px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.index-content-right
+{
+    float: right;
+
+    width: 330px;
+
+    opacity: .7;
+    background-color: red;
+}
+
 .front
 {
     background-image: url('../img/index-background.jpg');
 }
 
-.index-content
-{
-    background: url('../img/content-background.png'),
-    url('../img/content-dividing-line.png') no-repeat 50% 50%;
-}
-
 .main-footer
 {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    opacity: .7;
+    background-color: green;
     background-image: url('../img/footer-background.png');
+}
+
+.footer-contacts
+{
+    float: left;
+
+    width: 320px;
+    margin-right: 60px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.footer-social
+{
+    float: left;
+
+    width: 180px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.footer-copyright
+{
+    float: right;
+
+    width: 180px;
+
+    opacity: .7;
+    background-color: red;
 }
 
 .social-btn-vk
@@ -45,6 +181,210 @@ body
     background-position: 50% 50%;
 }
 
+.catolog-content-title
+{
+    float: left;
+    clear: both;
+
+    margin-bottom: 28px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.breadcrumbs
+{
+    float: left;
+    clear: both;
+
+    margin-bottom: 60px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.product-photos
+{
+    float: left;
+    clear: left;
+
+    width: 480px;
+    margin-bottom: 50px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.view-port
+{
+    float: left;
+
+    width: 460px;
+    height: 498px;
+    margin-bottom: 20px;
+}
+
+.controls img
+{
+    float: left;
+
+    width: 140px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+
+.product-specification
+{
+    float: right;
+
+    width: 400px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.product-data
+{
+    margin-bottom: 36px;
+}
+
+.product-presence
+{
+    float: left;
+}
+
+.product-article
+{
+    float: right;
+}
+
+.product-specification  p
+{
+    float: left;
+
+    margin-bottom: 40px;
+}
+
+
+.product-price
+{
+    float: left;
+
+    margin-bottom: 60px;
+}
+
+.product-price div
+{
+    display: inline-block;
+}
+
+.product-list
+{
+    float: left;
+    clear: left;
+}
+
+.catolog-content-title
+{
+    margin-bottom: 35px;
+}
+
+.product-list ul
+{
+    clear: left;
+}
+
+.product-filter
+{
+    float: left;
+    clear: left;
+
+    width: 220px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.product-filter legend
+{
+    float: left;
+
+    margin-bottom: 30px;
+}
+
+.product-filter-item
+{
+    float: left;
+    clear: left;
+
+    margin-bottom: 25px;
+}
+
+.product-filter label
+{
+    float: right;
+}
+
+.product-filter fieldset
+{
+    margin-bottom: 50px;
+}
+
+.catolog
+{
+    float: right;
+
+    width: 700px;
+
+    opacity: .7;
+    background-color: red;
+}
+
+.catolog-item
+{
+    float: left;
+
+    width: 220px;
+    margin-right: 20px;
+
+    opacity: .7;
+    background-color: red;
+}
+.catolog-item:nth-child(3n)
+{
+    margin-right: 0;
+}
+
+.gallery-content
+{
+    margin-bottom: 15px;
+}
+
+.product-title
+{
+    margin-bottom: 15px;
+}
+
+.product-price
+{
+    margin-bottom: 15px;
+}
+
+.catolog-items
+{
+    float: left;
+
+    margin-bottom: 45px;
+}
+
+.pagginator
+{
+    float: left;
+
+    margin-bottom: 50px;
+}
+
 .features-name
 {
     font-family: 'PT Sans Narrow';
@@ -64,3 +404,4 @@ body
 
     color: #000;
 }
+
